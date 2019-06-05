@@ -1,7 +1,7 @@
 {
   "name": "@greatislander/wordfeed",
   "license": "GPL-2.0+",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "repository": "greatislander/wordfeed",
   "scripts": {
     "start": "micro",
