@@ -13,8 +13,8 @@ module.exports = async (request, response) => {
 		const feed = new Feed({
 			title: `${json.name} Updates`,
 			description: `Unofficial update feed for ${json.name}.`,
-			id: `https://wordfeed.vercel.app/plugins/${slug}`,
-			link: `https://wordfeed.vercel.app/plugins/${slug}`,
+			id: `https://wordfeed.now.sh/plugins/${slug}`,
+			link: `https://wordfeed.now.sh/plugins/${slug}`,
 			generator: 'Wordfeed',
 			author: {
 				name: 'Ned Zimmerman',
@@ -22,7 +22,7 @@ module.exports = async (request, response) => {
 				link: 'https://bight.dev'
 			},
 			feedLinks: {
-				atom: `https://wordfeed.vercel.app/plugins/${slug}`
+				atom: `https://wordfeed.now.sh/plugins/${slug}`
 			}
 		});
 		feed.addItem({
