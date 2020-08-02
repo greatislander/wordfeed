@@ -1,3 +1,3 @@
 # Wordfeed
 
-Strictly for the birds.
+Unofficial RSS feeds for WordPress plugin and theme updates.

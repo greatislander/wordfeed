@@ -1,29 +1,20 @@
 {
   "name": "@greatislander/wordfeed",
-  "license": "GPL-2.0+",
+  "license": "GPL-2.0-or-later",
   "version": "1.1.1",
   "repository": "greatislander/wordfeed",
   "scripts": {
-    "start": "micro",
-    "dev": "micro-dev",
+    "start": "vercel dev",
     "test": "xo"
   },
   "engines": {
-    "node": ">= 6.9.4"
+    "node": "12.x"
   },
   "dependencies": {
-    "micro": "^9.1.4",
-    "micro-cacheable": "^2.0.1",
-    "node-fetch": "^2.1.2",
-    "pfeed": "^1.1.6",
-    "safe-buffer": "^5.1.1"
+    "feed": "^4.2.1",
+    "node-fetch": "^2.6.0"
   },
   "devDependencies": {
-    "micro-dev": "^2.2.2",
-    "prettier": "^1.11.1",
     "xo": "^0.32.1"
-  },
-  "xo": {
-    "extends": "prettier"
   }
 }
