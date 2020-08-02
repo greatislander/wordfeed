@@ -1,0 +1,14 @@
+{
+    "version": 2,
+    "alias": "wordfeed.now.sh",
+    "rewrites": [
+        {
+            "source": "/plugins/:slug",
+            "destination": "/api/plugin"
+        },
+        {
+            "source": "/themes/:slug",
+            "destination": "/api/theme"
+        }
+    ]
+}
